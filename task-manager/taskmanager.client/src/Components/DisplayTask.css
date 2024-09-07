@@ -1,0 +1,53 @@
+.task-details-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    padding: 10px;
+}
+
+#taskSnapshotList {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.table-header-style {
+    background-color: rgb(238, 238, 240);
+}
+
+    .table-header-style > th {
+        padding: 10px;
+    }
+
+.violet-pill {
+    background-color: #7A60D1
+}
+
+.active-li {
+    background-color: #F6F6FA;
+}
+
+/*position: absolute;
+will-change: transform;
+top: 0px;
+left: -148px;
+transform: translate3d(-5px, 31px, 0px);*/
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 0rem !important;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}

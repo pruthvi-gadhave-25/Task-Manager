@@ -1,0 +1,125 @@
+.overflow-ellipsis {
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#TaskDetailsTable {
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#TaskDetailsTable thead {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#TaskDetailsTable td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 11px;
+
+}
+
+#TaskDetailsTable thead {
+    border-bottom: 1px solid rgb(200, 199, 199);
+    background-color: #F9F9FB !important;
+}
+
+#TaskDetailsTable th {
+    font-size: 11px;
+    font-weight: 500;
+    color: gray;
+    border: none;
+}
+
+.table-filters select {
+    width: 8rem;
+}
+
+.table-filters {
+    border-top: 1px solid rgb(200, 199, 199);
+}
+
+.filter-heading {
+    font-size: 11px;
+}
+
+.table-font-size {
+    font-size: 11px !important;
+    color: gray !important;
+}
+
+.icon-style {
+    width: 12px;
+    fill: #4892FB;
+}
+
+.border-right {
+    border-right: 1px solid gray;
+}
+
+.add-all-task-icon {
+    fill: #4892FB;
+}
+
+.form-border {
+    border-bottom: 1px solid rgb(226, 223, 223);
+}
+
+.pipe-indicator {
+    width: 10px;
+    height: 9px;
+}
+
+.progress {
+    display: flex;
+    height: .3rem !important;
+    width: 9rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 36% 64%;
+}
+
+.grid-item {
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.red-pill {
+    background-color: rgb(246, 230, 231);
+}
+
+.green-pill {
+    background-color: #D1DFD9;
+}
+
+.menu-link {
+    background-color: #22B378 !important;
+}
+
+.text-left{
+    cursor: pointer;
+}

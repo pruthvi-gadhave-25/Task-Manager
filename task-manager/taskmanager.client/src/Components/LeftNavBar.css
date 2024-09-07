@@ -1,0 +1,32 @@
+.left-nav-header, .footer{
+    background-color: #181C2E;
+}
+
+.left-nav-header{
+    height: 8vh;
+}
+
+.icon{
+    width: 13px;
+    height: 13px;
+    fill: white;
+}
+.footer{
+    height : 5vh;
+}
+.left-nav-body{
+    background-color: #21263C;
+    height: 87vh;
+}
+
+
+.cursor-pointer :hover {
+
+    cursor: pointer !important;
+}
+
+
+.left-menu-list .active {
+    background-color: #22B378 !important;
+}
+

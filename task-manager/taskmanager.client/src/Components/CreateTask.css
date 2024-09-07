@@ -1,0 +1,23 @@
+.icon-inside-input {
+    position: absolute;
+    right: 8px; 
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+
+.custom-modal-header .close {
+    color: red; 
+    font-size: 20px; 
+  }
+
+
+.cancel-button{
+    color: red;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+/*.formFieldsEnableButton{
+    display:none;
+}*/
